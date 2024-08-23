@@ -1,0 +1,179 @@
+.navbar {
+    color: black;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    margin-left:50px;
+    margin-right:50px;
+
+
+}
+
+.navbar-items {
+    text-decoration: none;
+}
+
+.navbar-items li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+    
+}
+
+.navbar-items li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-items li a:hover {
+    color:blue;
+}
+.nav-class {
+    padding-left:30px;
+}
+.main{
+    background-color: #F0C929;
+    height:900px;
+    overflow: hidden;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#tr {
+    margin-top:40px;
+    margin-left: 80px;
+    text-align:left;
+    font-size: 40px;
+}
+#un{
+    margin-top : 470px;
+    text-align : left;
+    margin-left : 80px;
+}
+.login{
+    background-color: #ffffff;
+    border-radius: 29px;
+    padding:30px;
+    margin-top: 60px;
+    width:80%;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+#form-header{
+    text-align: center;
+}
+.form-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.con{
+    display: table;
+    width: 100%;
+}
+label {
+    display: table-cell;
+    width: 1px;
+    white-space: nowrap;
+    width: 120px;
+}
+input[type=textarea]{
+    background-color: #F4EEED;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:100%;
+    margin-left:10px;
+    padding-right: 0px;
+}
+input:focus{
+    outline: none;
+}
+input[type=password],input[type=text],input[type=date],input[type=email],input[type=tel]{
+    background-color: #F4EEED;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:100%;
+    margin-left:10px;
+    padding-right: 0px;
+
+
+    
+}
+
+    
+input[type="date"]::-webkit-calendar-picker-indicator {
+    padding-right: 10px; 
+}
+
+#login-submit{
+    background-color: #000000;
+    color:#F0C929;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:100%;
+}
+.front-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    position: absolute;
+    width: 814px;
+    height: 431px;
+    left: 0px;
+    top: 190px;
+}
+.signup-links{
+    color:#1D19BE;
+}
+button{
+    cursor:pointer;
+    
+}
+
+.flex{
+    display: flex;
+}
+.signup {
+    margin-left:180px;
+    margin-top:-40px;
+    padding-right: 80px;
+}
+.image{
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    text-align:center;
+    padding-top:15px;  
+}
+#foo1 {
+    color:white;
+}
+#foo2{
+   color: #F0C929 ;
+}
+html,body{
+    width:100%;
+}
+html {
+    scroll-behavior: smooth;
+}

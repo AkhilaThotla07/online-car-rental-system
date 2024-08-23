@@ -1,0 +1,173 @@
+.navbar {
+    color: black;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    margin-left:50px;
+    margin-right:50px;
+
+
+}
+
+.navbar-items {
+    
+    text-decoration: none;
+}
+
+.navbar-items li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+    
+}
+
+.navbar-items li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-items li a:hover {
+    color:blue;
+}
+
+
+
+
+.wrapper {
+    
+
+    text-align: center;
+    margin-left:100px;
+    margin-top:10px;
+    width: 300px;
+    background: rgba(231, 229, 229, 0.546);
+ 
+    color: black;
+    border-radius: 20px;
+    
+
+    padding-right: 20px;
+    margin-bottom: 100px;
+
+
+
+   
+}
+.wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pickup {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    margin: 30px 0;
+    margin-left: 15px;
+}
+.return{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    margin: 30px 0;
+    margin-left: 15px;
+}
+input[type="date"]{
+    background-color: white;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:100%;
+    margin-left:10px;
+    padding-right: 0px;
+
+
+    
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    padding-right: 10px; 
+}
+input::placeholder{
+    padding-left: 10px;
+    color: gray;
+  }
+  label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 8px; 
+    color:black;
+    font-size: 14px; 
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+    
+
+.flex{
+    display: flex;
+}
+.image {
+    margin-left: 100px;
+    margin-top: 20px;
+    height:400px;
+    width:470px;
+    border-radius: 12px;
+
+    padding-bottom: 80px;
+
+}
+.pay-now-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: black;
+    background-color: #8f8cb7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-now-btn:hover {
+    background-color: #a994f3; 
+}
+
+.pay-now-btn .btn {
+    color: white; 
+    text-decoration: none; 
+
+}
+.button{
+    padding-top: 30px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    text-align:center;
+    padding-top:15px;  
+}
+#foo1 {
+    color:white;
+}
+#foo2{
+   color: #F0C929 ;
+}
+html,body{
+    width:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+    
